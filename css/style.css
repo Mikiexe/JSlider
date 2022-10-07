@@ -1,0 +1,88 @@
+body {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+
+    padding: 0;
+    margin: 0;
+
+    align-items: center;
+    justify-content: center;
+
+    background-color: aliceblue;
+}
+
+
+
+.general-div {
+
+    display: flex;
+
+    width: 70em;
+    height: 40em;
+
+    align-items: center;
+    justify-content: center;
+    background-color: blue;
+}
+
+.slider-container {
+
+    display: flex;
+    width: 70em;
+    height: 40em;
+
+
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(200, 110, 76, 0.6);
+}
+
+.arrow-before {
+    display: flex;
+    width: 5em;
+    height: 40em;
+
+    justify-content: center;
+    align-items: center;
+
+    transition: .5s;
+    background: linear-gradient(to left, rgba(0, 255, 255, 0), rgba(0, 255, 255, 0.5));
+    background-color: rgba(0, 255, 255, 0.5);
+}
+
+.arrow-before>img {
+    width: 2em;
+    height: 2em;
+
+    transition: .8s;
+    opacity: 0;
+}
+
+.arrow-before:hover{
+    background: linear-gradient(to right, rgba(0, 255, 255, 0.5), rgba(0, 255, 255, 0));
+}
+
+.arrow-before:hover img {
+    opacity: .7;
+}
+
+
+
+
+
+
+
+.arrow-next {
+
+    width: 5em;
+    height: 40em;
+    background-color: aquamarine;
+}
+
+.slider-item {
+    width: 60em;
+    height: 40em;
+    background-color: lightblue;
+}
